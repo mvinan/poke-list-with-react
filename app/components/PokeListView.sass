@@ -1,0 +1,13 @@
+@import "loader"
+
+.pokeAnimation-enter
+  opacity: 0.01
+  transition: opacity 0.5s ease-in-out
+  &.pokeAnimation-enter-active
+    opacity: 1
+
+.pokeAnimation-leave
+  opacity: 1
+  transition: opacity 0.5s ease-in-out
+  &.pokeAnimation-leave-active
+    opacity: 0.01
